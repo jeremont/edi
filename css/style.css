@@ -1,0 +1,302 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+header {
+	background: white;
+	color: black;
+	font-size: 46px;
+	width: 100%;
+	padding-top:25px
+
+}
+
+#acceder {
+	text-align: right;
+	width: 100%;
+	font-size: 50%;
+}
+
+.title {
+		width: 100%;
+	text-align: center;
+	font-size:80px;
+
+
+}
+
+nav {
+	background: #474747;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header {
+		width: 100%;
+
+	}
+.thead { 
+    display: block;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%
+    z-index: 100;
+}
+.main{
+	width: 100%;
+	box-sizing: border-box;
+}
+#miMenu {
+	list-style: none;
+	width: 100%;
+}
+
+
+
+#miMenu li a {
+	color: #E1E1E1;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+
+
+section {
+	background: #E0E0E0;
+}
+
+article {
+	background: #474747;
+	font-size: 22px;
+	margin: 20px 0;
+
+}
+
+article h3 {
+	font-size: 40px;
+}
+
+#galeria {
+	text-align: center;
+}
+
+#galeria img {
+	background: #292929;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+
+
+footer {
+	background: #2E6AA2;
+	color: white;
+	text-align: center;	
+}
+
+#logo img {
+width: 25%;
+height: auto;
+vertical-align: text-top;
+
+}
+
+#menu img {
+width: 100%;
+	    overflow: hidden;
+
+
+}
+#menu p {
+
+  height: 300px;
+
+
+}
+#rowsize {
+  height: 300px;
+}
+
+#title span{
+	border-bottom: 1px solid red;
+}
+
+#text-center {
+   text-align:center
+}
+
+.logos {
+
+}
+
+/*----------Responsive----------*/
+
+@media	screen	and (max-width: 1000px) {
+	
+	header {
+	background: white;
+	color: black;
+	font-size: 46px;
+	width: 100%;
+	padding-top:25px
+	}
+	.main {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+
+	}
+	.title {
+		width: 100%;
+	text-align: center;
+	font-size: 60px;
+
+	}
+
+	#logo img {
+		width: 30%;
+		height: auto;
+		vertical-align: text-top;
+	}
+
+	#acceder {
+	text-align: right;
+	width: 100%;
+	vertical-align: text-top;
+	}
+
+.logo {
+    width:80%;
+
+}
+}
+
+@media	screen	and (max-width: 650px) {
+	
+	header {
+	background: white;
+	color: black;
+	font-size: 46px;
+	width: 100%;
+	padding-top:15px
+	}
+	.main {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+
+	}
+	.title {
+		width: 100%;
+	text-align: center;
+	font-size: 28px;
+	}
+
+	#logo img {
+		width: 45%;
+		height: 45%;
+		vertical-align: text-top;
+	}
+
+	#acceder {
+	text-align: right;
+	width: 100%;
+	font-size: 12px;
+vertical-align: text-top;
+
+	}
+
+.logo {
+    width:50%;
+
+}
+	
+}
+
+@media	screen	and (max-width: 330px) {
+	
+	header {
+	background: white;
+	color: black;
+	font-size: 46px;
+	width: 100%;
+	padding-top:15px
+	}
+	.main {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+
+	}
+	.title {
+		width: 100%;
+	text-align: center;
+	font-size: 20px;
+	}
+
+	#logo img {
+		width: 45%;
+		height: auto;
+		vertical-align: text-top;
+	}
+
+	#acceder {
+	text-align: right;
+	width: 100%;
+	font-size: 12px;
+vertical-align: text-top;
+
+	}
+
+
+	@media	screen	and (max-width: 250px) {
+	
+	header {
+	background: white;
+	color: black;
+	font-size: 46px;
+	width: 100%;
+	padding-top:15px
+	}
+	.main {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+
+	}
+	.title {
+		width: 100%;
+	text-align: center;
+	font-size: 15px;
+	}
+
+	#logo img {
+		width: 45%;
+		height: auto;
+		vertical-align: text-top;
+	}
+
+	#acceder {
+	text-align: right;
+	width: 100%;
+	font-size: 12px;
+vertical-align: text-top;
+
+	}
+
